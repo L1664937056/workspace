@@ -16,7 +16,7 @@ public class Send {
         String msg="hello simple!";
         channel.basicPublish("",QUEUE_NAME,null,msg.getBytes());
         System.out.println("发一条消息："+msg);
-
+//添加注释
         channel.close();
         connection.close();
 
