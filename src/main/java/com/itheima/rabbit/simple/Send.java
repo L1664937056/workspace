@@ -4,6 +4,7 @@ import com.itheima.rabbit.util.ConnectionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 
+
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
@@ -19,6 +20,8 @@ public class Send {
 //添加注释
         channel.close();
         connection.close();
+
+//       第二次提交
 
     }
 }
